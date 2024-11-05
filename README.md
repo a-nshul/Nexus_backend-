@@ -23,7 +23,7 @@ npm install
 
 
 Set up your environment variables . You might want to create a .env file and include:
-
+your mongoDb_URL,PORT ,EMAIL_USER & EMAIL_PASS (EMAIL_PASS will be get from google account app password);
 
 3.Starting the Server
 
