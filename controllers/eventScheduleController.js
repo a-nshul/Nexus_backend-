@@ -34,4 +34,15 @@ const createEvent =async(req,res)=>{
     }
 }
 
-module.exports={createEvent};
+
+// Fetch all events
+const getAllEvents=async(req,res)=>{
+    try {
+        const events=await Event.find({});
+        res.status(200).json({events,message:"Fetch all events"});
+    } catch (error) {
+        console.error(error.message);
+        res.status(500).send("Server Error");
+    }
+}
+module.exports={createEvent,getAllEvents};

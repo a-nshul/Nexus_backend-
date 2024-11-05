@@ -46,7 +46,7 @@ function generateEmailTemplate(eventTitle, eventDate, eventDescription) {
           <h1>${eventTitle}</h1>
           <p>Date: ${eventDate}</p>
           <p>${eventDescription}</p>
-          <a href="http://localhost:3003/register" class="button">Register Now</a>
+          <a href="https://nexus-frontend-self.vercel.app/register" class="button">Register Now</a>
         </div>
       </body>
     </html>
